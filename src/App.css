@@ -8,9 +8,32 @@
   background-color: var(--background-color);
   transition: background-color 0.25s ease-in-out;
 }
-h1{
+h1 {
   color: var(--primary-text-color);
 }
-h1 span{
+h1 span {
   color: var(--toggle-fg);
+}
+
+.MDJAminDiv {
+  z-index: 4444;
+  position: fixed;
+  bottom: 5%;
+  left: 2%;
+}
+
+.MDJAmin {
+  text-decoration: none;
+  border-bottom: 1px dashed var(--toggle-bg);
+  border-top: 1px dashed var(--toggle-bg);
+  padding: 4px 0;
+  color: var(--toggle-fg);
+  font-family: monospace;
+  font-style: italic;
+  font-size: 1.3em;
+  transition: all 0.5s;
+}
+
+.MDJAmin:hover {
+  color: var(--primary-text-color);
 }
